@@ -38,66 +38,71 @@ for i in range (1 , 3 , 1):
         cant_habitaciones = int(input("Ingrese la cantidad de habitaciones "))
         cant_total_huesped = int(input("Ingrese la cantidad total de huespedes que pueda alojar el hotel"))
         cant_actual_huesped = int(input("Ingrese la cantidad actual de huespedes"))
-    if i == 1 :
-        porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
-        print("Porcentaje de ocupación " , porc , "%")
+        
+        if i == 1 : 
+            porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
+            print("Porcentaje de ocupación " , porc , "%")
+        
         cont1 =+ cant_total_huesped
     
-    if i == 2 :
-        porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
-        print("Porcentaje de ocupación " , porc , "%")
+        if i == 2 :
+            porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
+            print("Porcentaje de ocupación " , porc , "%")
+            
         cont2 =+ cant_total_huesped
 
-    if i == 3 :
-        porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
-        print("Porcentaje de ocupación " , porc , "%")
+        if i == 3 :
+            porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
+            print("Porcentaje de ocupación " , porc , "%")
         cont3 =+ cant_total_huesped
 
-    if i == 4 :
-        porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
-        print("Porcentaje de ocupación " , porc , "%")
+        if i == 4 :
+            porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
+            print("Porcentaje de ocupación " , porc , "%")
         cont4 =+ cant_total_huesped
 
-    if i == 5 :
-        porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
-        print("Porcentaje de ocupación " , porc , "%")
+        if i == 5 :
+            porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
+            print("Porcentaje de ocupación " , porc , "%")
         cont5 =+ cant_total_huesped
     
-    if i == 6 :
-        porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
-        print("Porcentaje de ocupación " , porc , "%")
+        if i == 6 :
+            porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
+            print("Porcentaje de ocupación " , porc , "%")
         cont6 =+ cant_total_huesped
 
-    if i == 7 :
-        porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
-        print("Porcentaje de ocupación " , porc , "%")
+        if i == 7 :
+            porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
+            print("Porcentaje de ocupación " , porc , "%")
         cont7 =+ cant_total_huesped
 
-    if i == 8 :
-        porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
-        print("Porcentaje de ocupación " , porc , "%")
+        if i == 8 :
+            porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
+            print("Porcentaje de ocupación " , porc , "%")
         cont8 =+ cant_total_huesped
 
-    if i == 9 :
-        porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
-        print("Porcentaje de ocupación " , porc , "%")
+        if i == 9 :
+            porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))
+            print("Porcentaje de ocupación " , porc , "%")
         cont9 =+ cant_total_huesped
 
-    if i == 10 :
-        porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))        
-        print("Porcentaje de ocupación " , porc , "%")
+        if i == 10 :
+            porc = float(round((cant_actual_huesped * 100) / cant_total_huesped , 2))        
+            print("Porcentaje de ocupación " , porc , "%")
         cont10 =+ cant_total_huesped
     
-    nombre_filial = str(input("Ingrese el nombre el hotel"))
-    cant_habitaciones = int(input("Ingrese la cantidad de habitaciones "))
-    cant_total_huesped = int(input("Ingrese la cantidad total de huespedes que pueda alojar el hotel"))
-    cant_actual_huesped = int(input("Ingrese la cantidad actual de huespedes"))
+    #se consigue el valor maximo
+        if cant_habitaciones > max :
+            max = cant_habitaciones
+            nombre_filial_max = nombre_filial
+
+        nombre_filial = str(input("Ingrese el nombre el hotel"))
+        cant_habitaciones = int(input("Ingrese la cantidad de habitaciones "))
+        cant_total_huesped = int(input("Ingrese la cantidad total de huespedes que pueda alojar el hotel"))
+        cant_actual_huesped = int(input("Ingrese la cantidad actual de huespedes"))
         
     
-    #se consigue el valor maximo
-    if cant_habitaciones > max :
-        max = cant_habitaciones
-        nombre_filial_max = nombre_filial
+    
 
 cont_total = cont1 + cont2 + cont3 + cont4 + cont5 + cont6 + cont7 + cont8 + cont9 + cont10
 print("mayor habitaciones " , max , "Su hotel es el : " , nombre_filial_max)
