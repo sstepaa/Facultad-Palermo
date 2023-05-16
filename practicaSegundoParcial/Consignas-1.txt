@@ -1,0 +1,6 @@
+Se ingresa el nombre y apellido, el saldo de la caja de ahorro y el saldo de la caja de cuenta corriente de los clientes de un banco hasta que el nombre y apellido sea FIN. Calcular y mostrar:
+
+Nombre y apellido del cliente que tiene el mayor saldo en la caja de ahorro
+Cantidad de clientes cuyo saldo en caja de ahorro o en cuenta corriente sea negativo.
+Total de dinero depositado en ambas cajas.
+Mostrar el nombre y apellido de aquellos clientes que no tienen dinero en ambas cuentas.
