@@ -32,7 +32,7 @@ max = 0
 #declarar variable porcentaje
 porc = 0
 
-for i in range (1 , 3 , 1):
+for i in range (1 , 10 , 1):
     #Listo todas las funcionalidades , agregar las otras 8 iteraciones y mejorar las salidas por pantallas.
         nombre_filial = str(input("Ingrese el nombre el hotel"))
         cant_habitaciones = int(input("Ingrese la cantidad de habitaciones "))
