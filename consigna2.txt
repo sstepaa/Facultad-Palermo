@@ -1,0 +1,1 @@
+Se ingresan n números. Diseñar un programa que usando una función, muestre lamitad de aquellos que son pares
